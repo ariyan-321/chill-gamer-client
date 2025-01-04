@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "clientName": "John Doe",
+    "image": "https://nursinginstitutegoa.org/wp-content/uploads/2016/01/tutor-8.jpg",
+    "review": "I had an amazing time browsing through the Chill Gamer website! The collection of games is vast, and the recommendations based on my preferences were spot-on. A great platform for every gamer!",
+    "rating": 5,
+    "date": "2024-10-15"
+  },
+  {
+    "id": 2,
+    "clientName": "Jane Smith",
+    "image": "https://i.pinimg.com/736x/22/4e/50/224e505c57837f749c79d2c5b6c4dba5.jpg",
+    "review": "The Chill Gamer platform offers great discounts on gaming accessories. I found some awesome deals on my favorite gaming headset and controller. Shipping was quick, too!",
+    "rating": 4,
+    "date": "2024-10-17"
+  },
+  {
+    "id": 3,
+    "clientName": "Emily Johnson",
+    "image": "https://cdn.prod.website-files.com/65fd680ade762e318dc27216/65fd680ade762e318dc277d6_Emily_photo.jpeg",
+    "review": "I was blown away by the game streaming service. The quality was smooth, and I didn't experience any lag. Definitely coming back for more gaming sessions!",
+    "rating": 4,
+    "date": "2024-10-20"
+  },
+  {
+    "id": 4,
+    "clientName": "Michael Brown",
+    "image": "https://c8.alamy.com/comp/C6GEYT/michel-brown-14th-annual-people-en-espanol-50-most-beautiful-issue-C6GEYT.jpg",
+    "review": "Chill Gamer is my go-to for new game releases! I pre-ordered a game and got early access. The site is easy to navigate, and I always find what I need.",
+    "rating": 5,
+    "date": "2024-10-22"
+  },
+  {
+    "id": 5,
+    "clientName": "Sarah Lee",
+    "image": "https://goldhouse.org/wp-content/uploads/2022/04/Advisor_SarahLee_1x1.png",
+    "review": "While I had a small issue with the game download, the support team was super helpful and resolved it in no time. Looking forward to more games and deals from Chill Gamer!",
+    "rating": 3,
+    "date": "2024-10-25"
+  }
+]
