@@ -51,7 +51,7 @@ export default function AllReviews() {
   const genres = [...new Set(reviews.map((review) => review.genre))];
 
   return (
-    <div>
+    <div className="mt-24">
       {/* Typewriter Header with Fade animation */}
       <Fade duration={1500} triggerOnce>
         <h1 className="text-center font-bold text-3xl my-8">
@@ -111,7 +111,7 @@ export default function AllReviews() {
           <span className="loading loading-bars loading-lg"></span>
         </div>
       ) : (
-        <div className="grid justify-items-center mt-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid justify-items-center mt-7 grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
           {/* Reviews Section with Zoom animation */}
           {filteredReviews.map((review, i) => (
             <Zoom key={i} duration={1500} triggerOnce>

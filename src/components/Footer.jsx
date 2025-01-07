@@ -61,18 +61,18 @@ export default function Footer() {
           <h6 className="footer-title text-purple-300 text-lg font-semibold mb-4">
             Community
           </h6>
-          <a
+          <Link
             className="link link-hover block text-white hover:text-purple-400 mb-2 transition-all"
-            href="#"
+            to={"/aboutus"}
           >
             About Us
-          </a>
-          <a
+          </Link>
+          <Link
             className="link link-hover block text-white hover:text-purple-400 mb-2 transition-all"
-            href="#"
+            to={"/contact"}
           >
             Contact Us
-          </a>
+          </Link>
           <a
             className="link link-hover block text-white hover:text-purple-400 mb-2 transition-all"
             href="#"

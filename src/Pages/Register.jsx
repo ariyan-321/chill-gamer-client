@@ -52,75 +52,92 @@ export default function Registration() {
 
   return (
     <div>
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero bg-gradient-to-r from-purple-800 to-purple-600 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+          {/* Back to Home Button */}
+          <Link 
+            to="/" 
+            className="absolute -top-3 left-0  md:top-5 md:left-5 btn btn-ghost text-xl text-white hover:text-gray-200"
+          >
+            &#8592; Back to Home
+          </Link>
+
+          <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-xl p-6 rounded-lg">
             <form onSubmit={handleRegister} className="card-body">
-              <div className="form-control">
+              <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">Register</h2>
+
+              <div className="form-control mb-4">
                 <label className="label">
-                  <span className="label-text">Name</span>
+                  <span className="label-text text-gray-700">Name</span>
                 </label>
                 <input
                   type="text"
                   name="name"
                   placeholder="Name"
-                  className="input input-bordered"
+                  className="input input-bordered w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
               </div>
-              <div className="form-control">
+
+              <div className="form-control mb-4">
                 <label className="label">
-                  <span className="label-text">Email</span>
+                  <span className="label-text text-gray-700">Email</span>
                 </label>
                 <input
                   type="email"
                   name="email"
-                  placeholder="email"
-                  className="input input-bordered"
+                  placeholder="Email"
+                  className="input input-bordered w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
               </div>
-              <div className="form-control">
+
+              <div className="form-control mb-4">
                 <label className="label">
-                  <span className="label-text">Photo URL</span>
+                  <span className="label-text text-gray-700">Photo URL</span>
                 </label>
                 <input
                   type="text"
                   name="photoURL"
                   placeholder="Photo URL"
-                  className="input input-bordered"
+                  className="input input-bordered w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
               </div>
-              <div className="form-control">
+
+              <div className="form-control mb-6">
                 <label className="label">
-                  <span className="label-text">Password</span>
+                  <span className="label-text text-gray-700">Password</span>
                 </label>
                 <div className="relative">
                   <input
                     type={showPassword ? 'text' : 'password'}
                     name="password"
-                    placeholder="password"
-                    className="input input-bordered pr-10"
+                    placeholder="Password"
+                    className="input input-bordered w-full rounded-lg pr-10 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     required
                   />
                   <span
                     onClick={() => setShowPassword(!showPassword)}
                     className="absolute right-3 top-1/2 transform -translate-y-1/2 cursor-pointer"
                   >
-                    {showPassword ? <FiEyeOff /> : <FiEye />}
+                    {showPassword ? <FiEyeOff size={20} /> : <FiEye size={20} />}
                   </span>
                 </div>
-                {passwordError && <p className="text-red-500 text-sm">{passwordError}</p>}
-                {error && <p className="text-red-500 text-sm">{error}</p>}
+                {passwordError && <p className="text-red-500 text-sm mt-2">{passwordError}</p>}
+                {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
               </div>
+
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Register</button>
+                <button className="btn btn-primary w-full text-white rounded-lg shadow-md">
+                  Register
+                </button>
               </div>
             </form>
-            <p className="font-semibold text-center p-4">
+
+            <p className="font-semibold text-center text-gray-700 mt-4">
               Already have an account?{' '}
-              <Link className="text-red-500 font-bold" to="/login">
+              <Link className="text-red-500 font-bold hover:underline" to="/login">
                 Login
               </Link>
             </p>

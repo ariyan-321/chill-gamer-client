@@ -43,7 +43,7 @@ export default function ReviewDetails() {
   }
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gray-50 py-12">
+    <div className="min-h-screen mt-24 flex justify-center items-center bg-gray-50 py-12">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-3xl w-full">
         <div className="flex flex-col md:flex-row gap-6">
           {/* Game Cover Image */}

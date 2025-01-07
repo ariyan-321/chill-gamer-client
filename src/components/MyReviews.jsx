@@ -57,9 +57,9 @@ export default function MyReviews() {
   };
 
   return (
-    <div className="p-6">
+    <div className="p-6 mt-24 w-[90%] mx-auto">
       {/* Typewriter Header */}
-      <h1 className="text-center font-bold text-4xl my-8">
+      <h1 className="text-center font-bold text-3xl lg:text-4xl my-8 ">
         <Typewriter
           words={[
             "Manage Your Reviews",
@@ -78,19 +78,19 @@ export default function MyReviews() {
       {/* Show loader when data is being fetched */}
       {loading ? (
         <div className="flex justify-center items-center">
-          <span className="loading loading-bars loading-lg"></span>
+          <span className="loading loading-bars loading-lg text-blue-500"></span>
         </div>
       ) : (
         <div className="overflow-x-auto">
-          <table className="table-auto w-full border-collapse border border-gray-200 shadow-lg rounded-lg">
+          <table className="table-auto w-full border-collapse border border-gray-200 shadow-lg rounded-lg bg-white">
             {/* Table Head */}
-            <thead>
-              <tr className="bg-gray-100">
-                <th className="border px-4 py-2 text-left">#</th>
-                <th className="border px-4 py-2 text-left">Title</th>
-                <th className="border px-4 py-2 text-left">Rating</th>
-                <th className="border px-4 py-2 text-left">Publish Year</th>
-                <th className="border px-4 py-2 text-left">Actions</th>
+            <thead className="bg-gray-200">
+              <tr>
+                <th className="border px-4 py-2 text-left font-semibold">#</th>
+                <th className="border px-4 py-2 text-left font-semibold">Title</th>
+                <th className="border px-4 py-2 text-left font-semibold">Rating</th>
+                <th className="border px-4 py-2 text-left font-semibold">Publish Year</th>
+                <th className="border px-4 py-2 text-left font-semibold">Actions</th>
               </tr>
             </thead>
             <tbody>
@@ -101,22 +101,22 @@ export default function MyReviews() {
                   <td className="border px-4 py-2">{review.title}</td>
                   <td className="border px-4 py-2">{review.rating}</td>
                   <td className="border px-4 py-2">{review.publishingYear}</td>
-                  <td className="border px-4 py-2 flex gap-2">
+                  <td className="border px-4 py-2 flex gap-2 justify-center">
                     <Link
                       to={`/updateReview/${review._id}`}
-                      className="btn btn-primary btn-sm"
+                      className="btn btn-primary btn-sm text-white bg-blue-500 hover:bg-blue-700"
                     >
                       Update
                     </Link>
                     <Link
                       to={`/details/${review._id}`}
-                      className="btn btn-info btn-sm"
+                      className="btn btn-info btn-sm text-white bg-teal-500 hover:bg-teal-700"
                     >
                       Details
                     </Link>
                     <button
                       onClick={() => handleDelete(review._id)}
-                      className="btn btn-error btn-sm"
+                      className="btn btn-error btn-sm text-white bg-red-500 hover:bg-red-700"
                     >
                       Delete
                     </button>
