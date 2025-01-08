@@ -53,7 +53,7 @@ Chill Gamer is a platform for passionate gamers to:
 Clone the Repository:
 
 
-git clone https://github.com/ariyan/chill-gamer.git
+git clone https://github.com/ariyan-321/chill-gamer-client.git
 cd chill-gamer
 Install Dependencies:
 npm install
