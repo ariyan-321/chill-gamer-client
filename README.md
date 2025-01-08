@@ -48,8 +48,7 @@ Chill Gamer is a platform for passionate gamers to:
   "sweetalert2": "^11.14.5",
   "tailwindcss": "^3.4.16"
 }
-
-
+```
 📝 How to Run Locally
 Clone the Repository:
 
@@ -92,3 +91,5 @@ Review Form
 Contributions are welcome! Feel free to fork and submit pull requests.
 For issues or feature requests, please open an issue on the GitHub repository.
 For direct inquiries, email ariyanhaque.dev@gmail.com
+
+
