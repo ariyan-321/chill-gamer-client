@@ -1,10 +1,18 @@
 # 🌟 Chill Gamer 🎮  
 
+
 A modern platform to discover and share gaming reviews, ratings, and recommendations.  
 
 **Live Site URL:** [Chill Gamer](https://assignment-10-ariyan.netlify.app/)  
 
 **server Repo:** [Chill Gamer](https://github.com/ariyan-321/chill-gamer-server)  
+
+
+## 📷 Screenshots  
+
+### Home Page  
+![Home Page](https://i.ibb.co.com/9pBGvXh/Screenshot-2025-01-08-152639.png) 
+
 
 
 ---
@@ -87,10 +95,7 @@ Enjoy the Experience:
 Enjoy a seamless, responsive interface optimized for all devices.
 
 
-## 📷 Screenshots  
-
-### Home Page  
-![Home Page](https://i.ibb.co.com/9pBGvXh/Screenshot-2025-01-08-152639.png)  
+ 
 
 
 Review Form
