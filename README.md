@@ -4,6 +4,9 @@ A modern platform to discover and share gaming reviews, ratings, and recommendat
 
 **Live Site URL:** [Chill Gamer](https://assignment-10-ariyan.netlify.app/)  
 
+**server Repo:** [Chill Gamer](https://github.com/ariyan-321/chill-gamer-server)  
+
+
 ---
 
 ## 📖 About Chill Gamer  
