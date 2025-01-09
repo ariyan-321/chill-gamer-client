@@ -8,6 +8,8 @@ A modern platform to discover and share gaming reviews, ratings, and recommendat
 **server Repo:** [Chill Gamer](https://github.com/ariyan-321/chill-gamer-server)  
 
 
+
+
 ## 📷 Screenshots  
 
 ### Home Page  
