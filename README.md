@@ -50,6 +50,7 @@ Chill Gamer is a platform for passionate gamers to:
 
 ---
 
+
 ## 🧰 Dependencies  
 
 ```json
